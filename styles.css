@@ -1,0 +1,169 @@
+* {
+    background-color: rgb(105, 105, 105);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: "Protest Strike";
+    margin: 1rem 0;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: purple;
+}
+
+/* nav/title section */
+
+.nav {
+    height: 8rem;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 6rem;
+}
+
+/* Welcome section */
+
+.welcome-photo
+ {
+    background-image: url(./Photos/1700126686720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25rem;
+    align-content: flex-end;
+    justify-items: center;
+}
+
+.welcome-text {
+    display: flexbox;
+    border: solid 1px white;
+    background-color: rgb(105, 105, 105, 0.7);
+    margin: 2rem 10rem;
+    padding: 0.5rem;
+}
+
+h2,
+p {
+    background: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+button {
+    background-color: white;
+    color: rgb(105, 105, 105);
+    line-height: 2;
+    padding: 0 0.5rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Photos section */
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.photos-container {
+    display: inline;
+}
+
+img {
+    height: 12rem;
+    margin: 0 0.5rem;
+}
+
+/* contact section */
+
+footer {
+    height: 3rem;
+    align-content: center;
+}
+
+footer p {
+    font-size: 0.7rem;
+    display: inline;
+    margin: 0 3rem;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1440px) {
+    .nav ul li {
+        list-style: none;
+        display: inline-flex;
+        margin: 0 4rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .nav {
+        height: 6rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav ul li {
+        list-style: none;
+        display: inline-flex;
+        margin: 0 2.2rem;
+    }
+
+    footer p {
+        margin: 0 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 20px;
+    }
+
+    img {
+        height: 9rem;
+        margin: 0 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    * {
+        font-size: 10px;
+    }
+
+    .nav {
+        height: 7rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .nav ul li {
+        list-style: none;
+        display: inline-flex;
+        margin: 0 2.2rem;
+    }
+
+    .nav ul {
+        padding: 0;
+    }
+}
